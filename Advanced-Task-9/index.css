@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTAINER */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* INPUT */
+.input__field {
+    width: 50%;
+    height: 80vh;
+    margin: 50px  100px;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+#login {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid lightblue;
+    margin: 10px 0 30px 0;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#pass {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid lightblue;
+    margin: 10px 0 30px 0;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#email {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid lightblue;
+    margin: 10px 0 30px 0;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+/* TABLE */
+.result__field {
+    width: 50%;
+    height: 80vh;
+    margin: 88px 100px 30px 0;
+    display: block;
+}
+
+tr {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+
+#table {
+    width: 100%;
+    padding: 8px 0;
+}
+
+
+
+
+
+
+
+/* BUTTON */
+#btn__add__user {
+    width: 120px;
+    height: 45px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(13, 201, 22);
+    outline: none;
+    margin: 20px 0 0 0;
+    color: rgb(13, 201, 22);
+    background-color: white;
+    font-size: 16px; 
+    font-family: 'Raleway', sans-serif;
+}
+#btn__add__user:hover{
+    background-color: rgb(13, 201, 22);
+    color: white;
+    transition: .3s;
+}
+
+
+.btn__edit {
+    width: 65px;
+    height: 35px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(255, 233, 35);
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color:  rgb(255, 233, 35);
+    font-size: 18px; 
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.btn__delete {
+    width: 90px;
+    height: 35px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(245, 39, 39);
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color:  rgb(245, 39, 39);
+    font-size: 18px; 
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#btn__edit__user {
+    display: none;
+    width: 120px;
+    height: 45px;
+    margin: 20px 0 0 0;
+    border-radius: 3px;
+    border: 1.5px solid rgb(13, 201, 22);
+    outline: none;
+    color: rgb(13, 201, 22);
+    background-color: white;
+    font-size: 16px; 
+    font-family: 'Raleway', sans-serif;
+}
+
+#btn__edit__user:hover{
+    background-color: rgb(13, 201, 22);
+    color: white;
+    transition: .3s;
+}

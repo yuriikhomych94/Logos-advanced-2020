@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(216, 216, 216);
+}
+
+.first__block, .second__block, .third__block {
+    width: 25%;
+    height: 70vh;
+    border: 1.5px solid rgb(255, 255, 255);
+    margin-top: 70px;
+    border-radius: 3px;
+}
+
+
+
+
+/* FIRST BLOCK */
+label {
+    margin-left: 18px;
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 12px 10px;
+    margin: 30px 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    outline: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+  }
+
+  .box__value {
+    margin-top: 20px;
+  }
+
+
+
+
+  /* second block */
+
+#count {
+    width: 90%;
+    padding: 12px 10px;
+    margin: 30px 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    outline: none;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.add__to__order {
+    width: 140px;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(182, 182, 182);
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: white;
+}
+
+
+.order__list {
+    overflow: auto;
+    width: 90%;
+    height: 100px;
+    background-color: white;
+    margin: 30px 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(182, 182, 182);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.make__order {
+    width: 140px;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(182, 182, 182);
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: white;
+}
+
+
+/* THIRD BLOCK */
+
+
+.third__block{
+    overflow: auto;
+}
+.result {
+    width: 90%;
+    min-height: 230px;
+    margin: 30px auto;
+    font-family: 'Nunito Sans', sans-serif;
+}

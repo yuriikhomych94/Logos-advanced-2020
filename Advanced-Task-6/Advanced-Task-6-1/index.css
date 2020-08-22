@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.first__container{
+    font-family: 'Raleway', sans-serif;
+    width: 400px;
+    margin: 40px auto;
+    display: block;
+    background: #FFF;
+    padding: 10px 50px;
+}
+
+.second__container {
+    font-family: 'Raleway', sans-serif;
+    width: 400px;
+    margin: 40px auto;
+    display: none;
+    background: #FFF;
+    padding: 10px 50px;
+}
+
+h2 {
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+
+.group {
+    position: relative;
+    margin-bottom: 30px;
+}
+  
+input {
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+  /* LABEL ======================================= */
+label {
+    color: #999;
+    font-size: 18px;
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    top: 15px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+  
+  /* active state */
+input:focus ~ label, input:valid ~ label {
+    top: -15px;
+    font-size: 14px;
+    color: #5264AE;
+}
+  
+  
+  /* BOTTOM BARS ================================= */
+.bar {
+    position: relative;
+    display: block;
+    width: 320px;
+}
+
+.bar:before, .bar:after {
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    background: #5264AE;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+  
+.bar:before {
+    left: 50%;
+}
+  
+.bar:after {
+    right: 50%;
+}
+  
+  /* active state */
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+    width: 50%;
+}
+
+
+#btn__sign__in {
+    width: 70px;
+    height: 40px;
+    border: 1px solid transparent;
+    float: left;
+    background-color: white;
+    margin-top: 30px;
+    color: rgb(175, 175, 175);
+    font-weight: 500;
+    text-align: center;
+    transition: .2s;
+}
+
+#btn__sign__in:hover{ 
+    color: rgb(122, 122, 122);
+    transition: .2s;
+    font-size: 17px;
+}
+
+
+
+.second__form__group, .text {
+    display: none;
+}
+
+
+
+#btn__s, #btn__sign__up  {
+    width: 320px;
+    border: 1px solid #999;;
+    background-color: transparent;
+    color: rgb(122, 122, 122);
+    transition: .2s;
+}
+
+#btn__s:hover, #btn__sign__up:hover {
+    color: black;
+    border: 1px solid black;
+}
+
+#btn__i {
+    width: 110px;
+    height: 40px;
+    border: 1px solid transparent;
+    float: left;
+    background-color: white;
+    margin-top: 30px;
+    color: rgb(175, 175, 175);
+    font-weight: 500;
+    text-align: center;
+    transition: .2s;
+}
+
+#btn__i:hover{ 
+    color: rgb(122, 122, 122);
+    transition: .2s;
+    font-size: 17px;
+}

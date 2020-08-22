@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="input__field">
+
+            <form name="data">
+
+                <h2>Login</h2>
+                <input type="text" placeholder="Enter Login" id="login" name="login">
+
+                <h2>Password</h2>
+                <input type="password" placeholder="Enter Password" id="pass" name="pass">
+
+                <h2>Email address</h2>
+                <input type="email" placeholder="Enter Email" id="email" name="email">
+
+                <input type="button" name="btnAddUser" id="btn__add__user" value="Add User">
+
+                <input type="button" name="btnEditUser" id="btn__edit__user" value="Edit User">
+
+            </form>
+
+        </div>
+
+        <div class="result__field">
+
+            <form name="result">
+
+                <hr>
+
+                <table id="table">
+
+                    <thead>
+
+                        <tr>
+                            <th>#</th>
+                            <th>Login</th>
+                            <th>Password</th>
+                            <th>Email</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="renderBody">
+
+                    </tbody>
+
+                </table>
+
+                <hr>
+
+            </form>
+
+
+        </div>
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
